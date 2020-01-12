@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+}
+
+nav {
+    display: inline-block;
+    margin-left: 84%;
+}
+
+hr {
+    margin: 0;
+    margin-top: 0px;
+    color:rgb(250, 250, 250);
+    padding: 0;
+    margin-top: 7px;
+    border-radius: 0.5em;
+}
+
+.awords {
+    float: left;
+    margin-top: 20px;
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.awords:hover {
+    text-decoration: underline;
+}
+
+.awords:visited {
+    color:black;
+}
+
+#user-logo {
+    float: left;
+    margin-top: 7px;
+    margin-left: 15px;
+}
+
+.search-buttons {
+    height: 30px;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(241, 239, 239);
+    color: #867f7f;
+}
+
+.search-buttons:hover {
+    border: 0.5px solid rgb(100, 100, 100);
+    color: rgb(109, 109, 109);
+}
+
+#apps-img {
+    float: left;
+    margin-top: 18px;
+}
+
+#logo {
+    text-align: center;
+    margin-top: 10%;
+}
+
+#seachbarinput {
+    background-image: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-512.png),
+    url(https://blog.expertrec.com/wp-content/uploads/2019/06/Google-Voice.jpg);
+    background-position: left, right;
+    background-size: 2em, 3em;
+    background-repeat: no-repeat;
+    padding: 0px 40px;
+    width: 40%;
+    height: 38px;
+    margin-top: 17px;
+    padding: 10 20px 10 20px;
+    border-radius: 20px;
+    border-style: solid;
+}
+
+#search-bar {
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    border: none;
+}
+
+#buttons-div {
+    text-align: center;
+    margin-top: 17px;
+}
+
+#offered {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+#offered a {
+    color: blue;
+    text-decoration: none;
+}
+
+#offered a:visited {
+    color: blue;
+}
+
+#bottomleft {
+    list-style: none;
+    margin: 0;
+    margin-left: 0;
+    margin-right: 5px;
+    padding: 0;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    position: absolute;
+    bottom: 0;
+    width: 97%;
+    background-color:rgb(240, 240, 240);
+    font-size: 23px;
+    border-color:rgb(204, 204, 204);
+    border-width: .1px;
+    border-style: solid;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    color:grey;
+    height: auto;
+}
+
+#bottomright {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 10px;
+    height: auto;
+    width: 15%;
+}
+
+#footer li {
+    font-size: 12.5px;
+    text-decoration: none;
+    display: inline;
+}
+
+#footer a {
+    text-decoration: none;
+}
+
+#footer a:visited {
+    color: rgb(126, 124, 124);
+    text-decoration: none;
+}
